@@ -2,3 +2,18 @@
     background-color: rgb(56, 56, 56);
     color: rgb(186, 126, 92);
 }
+.pics{
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: none;
+    background-color: black;
+}
+.intro{
+    padding-top: 60px;
+    margin: none;
+    background-color: rgb(131, 131, 131);
+    padding-bottom: 60px;
+}
+.name{
+    color: rgb(63, 106, 129);
+}

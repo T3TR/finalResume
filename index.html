@@ -12,10 +12,10 @@
   </head>
   <body style="height: 1500px;" >
     
-
+    <!-- Navigation Bar -->
     <nav class="navbarStyle navbar fixed-top navbar-expand-sm navbar-dark">
         <div class="container">
-            <p class="h1 inline-block">Daniel</p>
+            <p class="h1">Daniel</p>
                 <div>
                     <button 
                       type="button" 
@@ -30,6 +30,9 @@
                 </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#introduction" class="nav-link">Introduction</a>
+                    </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">Education</a>
                     </li>
@@ -46,6 +49,25 @@
         </div>
         </div>
     </nav>
+
+    <!-- Heading Images -->
+    <picture>
+        <source media="(max-width: 576px)" srcset="images/Profile-Small.jpg">
+        <source media="(max-width: 992px)" srcset="images/Profile-Medium.jpg">
+        <img  media="(max-width:)" class="pics" src="./images/Profile-Large.jpg" alt="Daniel Langley">
+    </picture>
+
+    <!-- Introduction -->
+    <section id="introduction" class="intro">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="name display-2">Daniel Langley</h1>
+              <p class="lead">I am very new to the (hello)world of coding and so far I am loving it, this Resume serves as both something I can use as part of my Portfolio and a display
+                of my learning thus far. I hope you find me interesting!</p>
+            </div>
+          </div>
+    </section>
+    
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
