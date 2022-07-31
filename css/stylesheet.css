@@ -11,9 +11,40 @@
 .intro{
     padding-top: 60px;
     margin: none;
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(56, 56, 56);
     padding-bottom: 60px;
+    color: white;
 }
 .name{
     color: rgb(63, 106, 129);
+}
+.heading{
+    color: rgb(214, 159, 91);
+    text-decoration: underline;
+}
+.edu{
+    padding-top: 75px;
+    margin: none;
+    background-color: rgb(131, 131, 131);
+    padding-bottom: 60px;
+}
+.inCard{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.cardLogos{
+    max-width: 100%;
+    max-height: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: black;
+}
+.cardImages{
+    padding-bottom: 1rem;
+}
+.sizingOverride{
+    padding-top: 0.5px;
+    padding-right: 0.5px;
+    background-color: rgb(63, 63, 232) !important;
 }
