@@ -2,7 +2,7 @@
     background-color: rgb(56, 56, 56);
     color: rgb(186, 126, 92);
 }
-.pics{
+.profilePics{
     max-width: 100%;
     margin-top: 50px;
     margin-bottom: none;
@@ -19,14 +19,16 @@
     color: rgb(63, 106, 129);
 }
 .heading{
+    background-color: rgb(56, 56, 56);
+    padding: 3rem;
     color: rgb(214, 159, 91);
     text-decoration: underline;
 }
-.edu{
+.contentSec{
     padding-top: 75px;
     margin: none;
     background-color: rgb(131, 131, 131);
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 .inCard{
     padding-top: 2rem;
@@ -47,4 +49,10 @@
     padding-top: 0.5px;
     padding-right: 0.5px;
     background-color: rgb(63, 63, 232) !important;
+}
+.expCard{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
 }
