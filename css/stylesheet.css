@@ -56,3 +56,22 @@
     justify-content: center;
     padding-bottom: 0;
 }
+.skillTags{
+    background-color: rgb(56, 56, 56);
+    border: 3px solid rgb(41, 41, 41);
+    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 5px;
+}
+.skills{
+    color: rgb(63, 106, 129);
+    font-family: sans-serif;
+}
+.badges{
+    background-color: rgb(131, 131, 131);
+    max-width: 200px;
+    max-height: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
