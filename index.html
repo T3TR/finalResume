@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
   </head>
-  <body style="height: 5000px;" >
+  <body>
     
     <!-- Navigation Bar -->
     <nav class="navbarStyle navbar fixed-top navbar-expand-sm navbar-dark">
@@ -46,7 +46,7 @@
                         <a href="" class="nav-link">Contact Details</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link  text-muted">About Me</a>
+                        <a href="#aboutMe" class="nav-link  text-muted">About Me</a>
                     </li>
                 </ul>
             </div>
@@ -65,7 +65,7 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="name display-2">Daniel Langley</h1>
-              <p class="lead">I am very new to the (hello)world of coding and so far I am loving it, this Resume serves as both something I can use as part of my Portfolio and a display
+              <p class="lead">I am very new to the (hello)world of coding. This is my Digital Resume and it serves as both something I can use as part of my Portfolio and a display
                 of my learning thus far. I hope you find me interesting!</p>
             </div>
           </div>
@@ -83,7 +83,7 @@
                         </div>
                         <h4>Software Development at <a href="https://www.codespace.co.za/courses/software-development/" target="_blank">CodeSpace</a></h4>
                         <h6>Due to complete December 2022</h6>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis vel repellat voluptas necessitatibus ipsa fuga minus deserunt error tenetur! Officia, modi in?</p>
+                        <p>Software Development Bootcamp offered by CodeSpace covering HTML and CSS as well as JavaScript</p>
                     </div>
                 </div>
                 <div class="cards col-md-4">
@@ -118,7 +118,7 @@
         <div class="card mb-3 bg-dark text-center" style="max-width: 95%;">
             <div class="row">
               <div class="col-md-4">
-                <img src="./images/CWTA.jpg" class="img-fluid rounded-start" alt="Chef's Warehouse Tintswalo Atlantic">
+                <img src="./images/CWTA.jpg" class="img-fluid rounded-start Fit" alt="Chef's Warehouse Tintswalo Atlantic">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -140,7 +140,7 @@
         <h2 class="heading text-center">Skills</h2>
         <div class="skillTags mx-5">
             <div class="container">
-                <div class="row row-cols-2">
+                <div class="row row-cols-sm-2">
                     <div class="col-6">
                         <div class="container">
                             <div class="row">
@@ -178,6 +178,62 @@
             </div>
         </div>
 
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/html5-brands.svg" class="d-block w-100 image-resize" alt="HTML5">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/css3-alt-brands.svg" class="d-block w-100 image-resize" alt="CSS5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+    <!-- About Me -->
+    <section id="aboutMe" class="contentSec">
+        <h2 class="heading text-center">About Me</h2>
+        <p class="aboutMe text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam corrupti atque provident soluta reprehenderit. Quia possimus quas, illo quos modi tenetur nihil numquam tempora eum error iste excepturi placeat saepe?</p>
+    </section>
+
+    <!-- Contact Details -->
+    <section id="contactDetails" class="footer">
+        <div class="contDets">    
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="name CDHeading display-4 text-center">Contact Details</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row row-cols-1">
+                    <div class="col-12">
+                        <ul class="contInfo text-center">
+                            <li>Mobile : 079 820 3792</li>
+                            <li>Email : 0107daniel.langley@gmail.com</li>
+                            <li><a href="https://www.linkedin.com/in/daniel-langley-3a4893244/" target="_blank">
+                                <img class="contLogo" src="./images/linkedin.png" alt="LinkedIn">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Bootstrap JS -->
