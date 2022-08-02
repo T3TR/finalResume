@@ -117,3 +117,23 @@
 .contLogo:hover{
     border: 3px solid rgb(131, 131, 131);
 }
+.TBLabel{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.textBox{
+    background-color: rgb(131, 131, 131);
+    border: 3px solid rgb(41, 41, 41);
+    border-radius: 8px;
+}
+#getInTouch{
+    background-color: rgb(41, 41, 41);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 10rem;
+    width: 20rem;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
