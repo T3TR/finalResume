@@ -1,3 +1,12 @@
+@keyframes bounce {
+    0%{transform: translateY(3px);}
+    25%{transform: translateY(6px)}
+    50%{transform: translateY(8px)}
+    75%{transform: translateY(9px)}
+    100%{transform: translateY(10px)}
+
+}
+
 .navbarStyle{
     background-color: rgb(56, 56, 56);
     color: rgb(186, 126, 92);
@@ -44,14 +53,24 @@
 }
 .cardLogos:hover{
     border: 3px solid rgb(87, 87, 87);
+    animation: bounce 600ms ease-in-out forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 .cardImages{
     padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .sizingOverride{
     padding-top: 0.5px;
     padding-right: 0.5px;
     background-color: rgb(63, 63, 232) !important;
+}
+.links{
+    color: rgb(105, 196, 248);
+}
+.links:hover{
+    color: rgb(13, 105, 158);
 }
 .expCard{
     padding-top: 2rem;
@@ -116,6 +135,9 @@
 }
 .contLogo:hover{
     border: 3px solid rgb(131, 131, 131);
+    animation: bounce 600ms ease-in-out forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 .TBLabel{
     padding: 1rem;
