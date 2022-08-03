@@ -135,5 +135,9 @@
     height: 10rem;
     width: 20rem;
     object-fit: contain;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+.btnPos{
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
